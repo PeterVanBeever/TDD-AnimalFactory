@@ -17,8 +17,9 @@ public class CatHouse {
         catHouse.removeAnimalById(id);
     }
 
-    public static void remove(Cat cat) {
+    public static Cat remove(Cat cat) {
         catHouse.removeAnimal(cat);
+        return cat;
     }
 
     public static Cat getCatById(Integer id) {
@@ -31,5 +32,9 @@ public class CatHouse {
 
     public static void clear() {
         catHouse.clear();
+    }
+
+    public static void remove() {
+
     }
 }

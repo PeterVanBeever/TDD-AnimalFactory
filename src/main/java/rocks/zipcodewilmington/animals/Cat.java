@@ -10,7 +10,28 @@ public class Cat extends Mammal {
         super(name, birthDate, id);
     }
 
-    public String speak() {
-        return "meow!";
+    public Cat() {
+        super();
     }
+
+    public Integer getId() {
+        // get ID
+        return super.getId();
+    }
+//    public Integer getId() {
+//        return super.getId();
+//    }
+
+    public String speak() {
+        return "Meow";
+    }
+
+    public String eat() {
+        return "Milk";
+
+    }
+
+    public void setId(Integer catID) {
+    }
+    //public Integer
 }

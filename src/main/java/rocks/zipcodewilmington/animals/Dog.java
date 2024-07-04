@@ -10,7 +10,18 @@ public class Dog extends Mammal {
         super(name, birthDate, id);
     }
 
+    public Dog() {
+
+    }
+
+    public void setId(Integer catID) {
+    }
+
     public String speak() {
         return "bark!";
+    }
+
+    public int numOfMealsDogAte() {
+        return 1;
     }
 }
